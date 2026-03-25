@@ -1,0 +1,10 @@
+a = int(input("Nhập a: "))
+b = int(input("Nhập b: "))
+tich = a * b
+x, y = abs(a), abs(b)
+while y != 0:
+    x, y = y, x % y
+ucln = x
+bcnn = abs(tich) // ucln
+print(f"UCLN({a}, {b}) = {ucln}")
+print(f"BCNN({a}, {b}) = {bcnn}")
