@@ -1,0 +1,12 @@
+a = int(input("Nhập a: "))
+b = int(input("Nhập b: "))
+x = a
+y = b
+while b != 0:
+    r = a % b
+    a = b
+    b = r
+ucln = a
+bcnn = (x * y) // ucln
+print("UCLN =", ucln)
+print("BCNN =", bcnn)
