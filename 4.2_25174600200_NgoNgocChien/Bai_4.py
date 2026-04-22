@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+n = input("Nhập một số: ")
+for i in n:
+    if i == '0':
+        print("không", end=" ")
+    elif i == '1':
+        print("một", end=" ")
+    elif i == '2':
+        print("hai", end=" ")
+    elif i == '3':
+        print("ba", end=" ")
+    elif i == '4':
+        print("bốn", end=" ")
+    elif i == '5':
+        print("bớn", end=" ")
+    elif i == '6':
+        print("sáu", end=" ")
+    elif i == '7':
+        print("bảy", end=" ")
+    elif i == '8':
+        print("tám", end=" ")
+    elif i == '9':
+=======
+n = input("Nhập một số: ")
+for i in n:
+    if i == '0':
+        print("không", end=" ")
+    elif i == '1':
+        print("một", end=" ")
+    elif i == '2':
+        print("hai", end=" ")
+    elif i == '3':
+        print("ba", end=" ")
+    elif i == '4':
+        print("bốn", end=" ")
+    elif i == '5':
+        print("bớn", end=" ")
+    elif i == '6':
+        print("sáu", end=" ")
+    elif i == '7':
+        print("bảy", end=" ")
+    elif i == '8':
+        print("tám", end=" ")
+    elif i == '9':
+>>>>>>> 0a506f250e87a8f784abe97ef89d502eff3b202f
+        print("chín", end=" ")
